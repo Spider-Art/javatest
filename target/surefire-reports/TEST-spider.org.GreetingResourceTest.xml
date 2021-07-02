@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spider.org.GreetingResourceTest" time="5.82" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spider.org.GreetingResourceTest" time="3.432" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="test.url" value="http://localhost:8081"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire/surefirebooter16107938574316521386.jar /Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire 2021-07-02T22-44-13_695-jvmRun1 surefire4745506800345747683tmp surefire_010369229935714266378tmp"/>
+    <property name="sun.java.command" value="/Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire/surefirebooter16159352103358876121.jar /Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire 2021-07-02T22-59-31_496-jvmRun1 surefire9762410567445086339tmp surefire_06494193899281258347tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="maven.home" value="/Users/apajak/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3"/>
     <property name="jdk.debug" value="release"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire/surefirebooter16107938574316521386.jar"/>
+    <property name="surefire.real.class.path" value="/Users/apajak/Warsztaty_OCP/java/quarkus/javatest/target/surefire/surefirebooter16159352103358876121.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16-ea+28-2065"/>
@@ -59,15 +59,15 @@
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="16-ea+28-2065"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="io.netty.machineId" value="e2:44:57:22:38:44:d6:2c"/>
+    <property name="io.netty.machineId" value="a4:9b:08:9c:73:46:d6:36"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testHelloEndpoint" classname="spider.org.GreetingResourceTest" time="1.511">
-    <system-out><![CDATA[2021-07-02 22:44:17,340 WARN  [io.qua.dep.QuarkusAugmentor] (main) Using Java versions older than 11 to build Quarkus applications is deprecated and will be disallowed in a future release!
-2021-07-02 22:44:18,984 INFO  [io.quarkus] (main) Quarkus 1.11.6.Final-redhat-00001 on JVM started in 1.710s. Listening on: http://localhost:8081
-2021-07-02 22:44:18,984 INFO  [io.quarkus] (main) Profile test activated. 
-2021-07-02 22:44:18,984 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
+  <testcase name="testHelloEndpoint" classname="spider.org.GreetingResourceTest" time="0.986">
+    <system-out><![CDATA[2021-07-02 22:59:33,725 WARN  [io.qua.dep.QuarkusAugmentor] (main) Using Java versions older than 11 to build Quarkus applications is deprecated and will be disallowed in a future release!
+2021-07-02 22:59:34,726 INFO  [io.quarkus] (main) Quarkus 1.11.6.Final-redhat-00001 on JVM started in 1.051s. Listening on: http://localhost:8081
+2021-07-02 22:59:34,726 INFO  [io.quarkus] (main) Profile test activated. 
+2021-07-02 22:59:34,726 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
 ]]></system-out>
   </testcase>
 </testsuite>
