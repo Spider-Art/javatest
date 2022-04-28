@@ -1,5 +1,6 @@
 #Maven
 #target/
+pom.xml
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -10,6 +11,7 @@ release.properties
 .classpath
 .settings/
 bin/
+test/
 
 # IntelliJ
 .idea
@@ -37,3 +39,9 @@ nb-configuration.xml
 
 # Local environment
 .env
+
+#docker ignore file
+.dockerignore
+
+#Docker
+docker/
